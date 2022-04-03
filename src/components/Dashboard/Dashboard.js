@@ -1,6 +1,7 @@
 import React from 'react';
 import BarChartDraw from '../Chart/BarChartDraw';
 import LineChartDraw from '../Chart/LineChartDraw';
+import PieChartDraw from '../Chart/PieChartDraw';
 
 const Dashboard = () => {
   const data = [
@@ -42,9 +43,10 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div className="grid grid-cols-2 px-40 py-10 gap-20">
+    <div className="grid grid-cols-2 px-40 py-10 gap-x-20 gap-y-10">
       <LineChartDraw data={data} />
       <BarChartDraw data={data} />
+      <PieChartDraw data={data} />
     </div>
   );
 };
