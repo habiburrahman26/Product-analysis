@@ -1,0 +1,44 @@
+[
+  {
+    "id": "u1",
+    "name":"Mark O Rogers",
+    "img": "https://randomuser.me/api/portraits/men/66.jpg",
+    "rating":"5",
+    "body":"Just awesome"
+  },
+  {
+    "id": "u2",
+    "name":"Ibuytoo Much",
+    "img": "https://randomuser.me/api/portraits/men/37.jpg",
+    "rating":"2",
+    "body":"Do not use for 4K Video recording"
+  },
+  {
+    "id": "u3",
+    "name":"Tolu",
+    "img": "https://randomuser.me/api/portraits/women/53.jpg",
+    "rating":"5",
+    "body":"Great Camera for photography and video projects"
+  },
+  {
+    "id": "u4",
+    "name":"Right Emboyo",
+    "img": "https://randomuser.me/api/portraits/men/37.jpg",
+    "rating":"4",
+    "body":"starsA superb camera with a remarkable kit lens."
+  },
+  {
+    "id": "u5",
+    "name":"F. Szeto",
+    "img": "https://randomuser.me/api/portraits/men/18.jpg",
+    "rating":"5",
+    "body":"Amazing camera, with screen/WiFi glitches so far"
+  },
+  {
+    "id": "u6",
+    "name":"krusty",
+    "img": "https://randomuser.me/api/portraits/women/19.jpg",
+    "rating":"5",
+    "body":"everything below. great upgrade from traditional dSLR line"
+  }
+]
