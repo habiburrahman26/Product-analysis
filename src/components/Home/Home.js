@@ -40,7 +40,7 @@ const Home = () => {
             body={review.body}
           />
         ))}
-        <div className="text-center pt-10 mb-6">
+        <div className="text-center pt-6 mb-6">
           <button
             className="border-none bg-blue-600 px-10 py-1 rounded-full text-white hover:bg-blue-500 transition-all"
             onClick={() => navigate('/reviews')}
