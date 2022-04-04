@@ -44,7 +44,7 @@ const Dashboard = () => {
     },
   ];
   return (
-    <div className="grid md:grid-cols-2 px-8 md:px-40 py-10 gap-x-20 gap-y-10">
+    <div className="grid md:grid-cols-2 px-4 md:px-40 py-10 gap-x-20 gap-y-10">
       <LineChartDraw data={data} />
       <BarChartDraw data={data} />
       <PieChartDraw data={data} />

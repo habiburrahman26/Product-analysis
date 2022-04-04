@@ -3,7 +3,7 @@ import { Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const LineChartDraw = ({ data }) => {
   return (
-    <div>
+    <div className=''>
       <LineChart width={400} height={250} data={data}>
         <XAxis dataKey="month" />
         <YAxis />

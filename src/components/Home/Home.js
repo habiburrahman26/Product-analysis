@@ -29,7 +29,7 @@ const Home = () => {
       </div>
 
       {/* Customer Review */}
-      <div className="px-20 pt-20">
+      <div className="px-2 py-10 md:px-20 md:pt-20">
         <h2 className="text-3xl text-center">Customer Reviews(3)</h2>
         {reviews.slice(0, 3).map((review) => (
           <Review

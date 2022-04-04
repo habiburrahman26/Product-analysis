@@ -2,7 +2,7 @@ import StarIcon from '../Utilites/StartIcon';
 
 const Review = ({ name, img, rating, body }) => {
   return (
-    <div className="flex gap-6 items-start shadow hover:shadow-lg  transition-all py-3 px-5 mt-8 w-[400px] md:w-[520px] mx-auto text-gray-700 rounded mb-8">
+    <div className="flex gap-6 items-start shadow hover:shadow-lg  transition-all py-3 px-5 mt-8 w-[320px] md:w-[520px] mx-auto text-gray-700 rounded mb-8">
       <div className="">
         <img src={img} alt="user" className="rounded-full w-12 h-12" />
       </div>

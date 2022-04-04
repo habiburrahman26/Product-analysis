@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blogs = () => {
   return (
-    <div className="p-8 md:px-40 md:py-14">
+    <div className="px-2 py-8 md:px-40 md:py-14">
       <div className="border-2 border-blue-100 px-8 rounded py-3 text-gray-700 mb-6">
         <h1 className="text-2xl mb-2 font-medium">What is context API?</h1>
         <p>
@@ -16,7 +16,7 @@ const Blogs = () => {
           app to avoid the props drilling.
         </p>
       </div>
-      <div className="border-2 border-blue-100 px-8 rounded py-3 text-gray-700">
+      <div className="border-2 border-blue-100 px-8 rounded py-3 text-gray-700 overflow-x-scroll">
         <h1 className="text-2xl mb-2 font-medium">What is semantic tag?</h1>
         <p>
           Semantic tags are HTML elements those clearly describe their meaning
