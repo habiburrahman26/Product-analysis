@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="grid md:grid-cols-2 text-center md:text-left gap-10 px-8 py-10 md:px-20 md:py-24 place-items-center">
+      <div className="grid md:grid-cols-2 text-center md:text-left gap-20 px-8 py-10 md:px-24 md:py-24 place-items-center">
         <div>
           <h1 className="text-2xl md:text-4xl uppercase font-semibold text-blue-400">
             Canon, EOS R6
