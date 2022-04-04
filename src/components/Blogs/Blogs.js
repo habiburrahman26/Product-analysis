@@ -16,7 +16,7 @@ const Blogs = () => {
           app to avoid the props drilling.
         </p>
       </div>
-      <div className="border-2 border-blue-100 px-8 rounded py-3 text-gray-700 overflow-x-scroll">
+      <div className="border-2 border-blue-100 px-8 rounded py-3 text-gray-700  overflow-auto">
         <h1 className="text-2xl mb-2 font-medium">What is semantic tag?</h1>
         <p>
           Semantic tags are HTML elements those clearly describe their meaning

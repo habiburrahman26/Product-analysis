@@ -4,6 +4,7 @@ import { Pie, PieChart } from 'recharts';
 const PieChartDraw = ({ data }) => {
   return (
     <div>
+      <p className='text-center text-lg mb-2 text-blue-400 font-semibold'>Sell vs Revenue</p>
       <PieChart width={400} height={250}>
         <Pie
           data={data}

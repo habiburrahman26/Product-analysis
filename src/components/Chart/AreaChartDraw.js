@@ -11,6 +11,7 @@ import {
 const AreaChartDraw = ({ data }) => {
   return (
     <div>
+      <p className='text-center text-lg mb-4 text-blue-400 font-semibold'>Investment vs Revenue</p>
       <AreaChart width={400} height={250} data={data}>
         <defs>
           <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
